@@ -238,7 +238,7 @@ function download_config(){
     mkdir /tmp/menu
     7z e  /tmp/menu-master.zip -o/tmp/menu/ >/dev/null 2>&1
     chmod +x /tmp/menu/*
-    mv /tmp/menu/* /usr/sbin/
+    mv /tmp/menu/* /usr/local/sbin/
 
 
     cat >/root/.profile <<EOF
